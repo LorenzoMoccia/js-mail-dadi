@@ -15,7 +15,7 @@
         }
     }
 
-    if(auth === true)
+    if(auth)
     {
 
     if(userNumber > pcNumber){
