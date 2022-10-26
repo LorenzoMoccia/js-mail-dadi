@@ -9,9 +9,10 @@
 
     let auth = false;
 
-    for(let i; i < emails.length; i++){
+    for(let i = 0; i < emails.length; i++){
         if(userEmail === emails[i]){
             auth = true;
+            break;
         }
     }
 
